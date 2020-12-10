@@ -1,0 +1,296 @@
+﻿.btnaramacerceve {
+    border: 1px solid green;
+    border-radius: 15px;
+}
+
+.ddl {
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+div#top1menu a {
+    color: #d2f8f8;
+}
+
+    div#top1menu a:hover {
+        color: white;
+    }
+
+    div#top1menu a:focus {
+        color: cyan;
+    }
+
+div#topmenu a {
+    color: #d2f8f8;
+}
+
+div#mymenu a {
+    color: #f5f5f5;
+    font-weight: bold;
+}
+
+    div#mymenu a:hover {
+        color: black;
+        transition: 0.5s !important;
+    }
+
+    div#mymenu a:focus {
+        color: black;
+        transition: 0.2s !important;
+    }
+
+div#logo a {
+    transition: 0.6s !important;
+}
+
+    div#logo a:hover {
+        color: white !important;
+        text-shadow: 0px 3px 5px #000000;
+    }
+
+.shadowtxt {
+    text-shadow: 0px 3px 10px #4e4b4b;
+}
+
+.shadowtxt {
+    text-shadow: 0px 3px 10px #000000;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu a {
+    color: #d2f8f8;
+}
+
+    ul#menu a:hover {
+        color: green;
+    }
+
+.box-shadow {
+    -webkit-box-shadow: 0 13px 8px 0 #808080;
+    box-shadow: 0 13px 8px 0 #808080;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.shadow2 {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.shadow2 {
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.shadowfooter {
+    box-shadow: 0 0px 10px 8px rgba(0, 0, 0, 0.2);
+}
+
+.lblSepetcerceve {
+    border: 2px solid #00ff90;
+    padding: 0px 4px 2px 3px;
+    width: 20px;
+    border-radius: 20px;
+    padding: 0px 3px 2px 2px;
+    text-align: center;
+}
+
+input[type=tet] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 12px 20px 12px 5px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+    input[type=tet]:focus {
+        width: 80%;
+    }
+
+.nav-link { /*!important yazarsan green oluyor ama hoverı gidiyor*/
+    color: green;
+}
+
+.golgeliKutu {
+    box-shadow: 0px 0px 15px #c2c2c2;
+    width: 200px;
+    padding: 5px;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+
+.golgeliKutu2 {
+    box-shadow: 0px 0px 15px #c2c2c2;
+    width: 250px;
+    padding: 5px;
+}
+
+.golgeliKutu3 {
+    box-shadow: 0px 0px 15px #c2c2c2;
+}
+
+.labeltxtdropSize {
+    font-size: 16px;
+    Width: 140px;
+    Height: 25px;
+}
+
+.labeldetailsize {
+    width: 215px;
+}
+
+.divSize {
+    font-size: 16px;
+}
+
+.Cercevelbltxt {
+    border: 1px solid #a1a1a1;
+    padding: 1px 1px 1px 1px;
+    Width: 150px;
+    Height: 30px;
+    border-radius: 7px;
+    margin: 1px;
+    float: left;
+}
+
+.cercevecevre {
+    border: 2px solid #a1a1a1;
+    padding: 5px 2px 5px 2px;
+    background: green;
+    width: 13%;
+    height: 500px;
+    border-radius: 20px;
+    color: white;
+    margin: 5px;
+    float: left;
+}
+
+.filtercerceve {
+    border: 2px solid #a1a1a1;
+    padding: 5px 2px 5px 5px;
+    border-radius: 20px;
+    color: white;
+    float: left;
+}
+
+.cerceve {
+    margin: 5px;
+    width: 2%;
+    border: 2px solid #a1a1a1;
+    padding: 4px;
+}
+
+.btncerceve {
+    border: 1px solid #a1a1a1;
+    padding: 1px 1px 1px 1px;
+    border-radius: 15px;
+    margin: 1px;
+}
+
+.shadowcart {
+    box-shadow: 0 5px 12px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bgmyfilter {
+    background-color: #dbd0d0;
+}
+
+.bgmyicerik {
+    background-color: #f6f3f5;
+}
+
+.border20p {
+    border-radius: 20px 20px;
+}
+
+.bordertop20 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.borderleft20 {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.borderright20 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.centerr {
+    justify-content: center;
+    text-align: center;
+}
+
+.auto-style2 {
+    text-align: right;
+    width: 350px;
+}
+
+.CercevelbltxtSira {
+    border: 1px solid #a1a1a1;
+    padding: 1px 1px 1px 1px;
+    font-size: 16px;
+    Width: 160px;
+    Height: 30px;
+    border-radius: 10px;
+    margin: 1px 0px 1px 1px;
+}
+
+.girisyap {
+    color: black;
+    text-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.borderuyariicin {
+    border: 1px solid white;
+}
+
+div #girisyapin .nav-link {
+    color: orange;
+}
+    /*!important yazarsan kırmızı oluyor ama hoverı gidiyor*/
+    div#girisyapin .nav-link:hover {
+        color: green !important;
+    }
+
+div#amazingslider-1 a {
+}
+    /*slider içindeki detay butonu havaya kalkıyor*/
+    div#amazingslider-1 a:hover {
+        transition: 0.5s !important;
+    }
+
+.filtercerceve0 {
+    border: 2px solid #a1a1a1;
+    padding: 5px 2px 5px 2px;
+    border-radius: 20px;
+    float: left;
+}
+
+.baslikcerceve {
+    border: 1px solid #a1a1a1;
+    padding: 5px 2px 5px 10px;
+    border-radius: 20px;
+    margin: 0 0 0 5px;
+    float: left;
+}
+
+.bgmy {
+    background-color: #f5f5f5; /*e9dede;*/
+}
+
+hr {
+    color: black;
+}
+
+.uyeol {
+    color: black;
+    text-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
