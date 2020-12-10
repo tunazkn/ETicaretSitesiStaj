@@ -173,7 +173,6 @@
     <Content Include="Social Media\SocialMedia.aspx" />
     <Content Include="Yayinevleri.aspx" />
     <Content Include="Yazarlar.aspx" />
-    <Content Include="zzsilinecekHome.aspx" />
     <Content Include="hover.css" />
     <Content Include="imagesslide\birnefesgibi-tn.png" />
     <Content Include="imagesslide\birnefesgibi.png" />
@@ -314,7 +313,6 @@
     <Content Include="slidersJS\navplaypause-28-28-0.png" />
     <Content Include="slidersJS\playvideo-64-64-0.png" />
     <Content Include="slidersJS\previewarrow-16-8-1.png" />
-    <Content Include="zsonDeneme.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -550,26 +548,12 @@
     <Compile Include="Yazarlar.aspx.designer.cs">
       <DependentUpon>Yazarlar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="zsonDeneme.aspx.cs">
-      <DependentUpon>zsonDeneme.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="zsonDeneme.aspx.designer.cs">
-      <DependentUpon>zsonDeneme.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Customer.Master.cs">
       <DependentUpon>Customer.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Customer.Master.designer.cs">
       <DependentUpon>Customer.Master</DependentUpon>
-    </Compile>
-    <Compile Include="zzsilinecekHome.aspx.cs">
-      <DependentUpon>zzsilinecekHome.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="zzsilinecekHome.aspx.designer.cs">
-      <DependentUpon>zzsilinecekHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

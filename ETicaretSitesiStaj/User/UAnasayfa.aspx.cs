@@ -17,26 +17,27 @@ namespace ETicaretSitesiStaj.User
             }
             else
             {
-            if (!IsPostBack)
-            {
-                try
+                if (!IsPostBack)
                 {
-                    DataListYuksekPuan.DataSource = DBop.getFirstLast5Books("Tbl_Kitaplar.KitapOrtalamaPuani", "desc");
-                    DataListYuksekPuan.DataBind();
+                    try
+                    {
+                        DataListYuksekPuan.DataSource = DBop.getFirstLast5Books("Tbl_Kitaplar.KitapOrtalamaPuani", "desc");
+                        DataListYuksekPuan.DataBind();
 
-                    DataListSonEklenen.DataSource = DBop.getFirstLast5Books("Tbl_Kitaplar.Kitapid", "desc");
-                    DataListSonEklenen.DataBind();
+                        DataListSonEklenen.DataSource = DBop.getFirstLast5Books("Tbl_Kitaplar.Kitapid", "desc");
+                        DataListSonEklenen.DataBind();
 
-                    DataListYorumSayisi.DataSource = DBop.getFirstLast5Books("Tbl_Kitaplar.KitapYorumSayisi", "desc");
-                    DataListYorumSayisi.DataBind();
+                        DataListYorumSayisi.DataSource = DBop.getFirstLast5Books("Tbl_Kitaplar.KitapYorumSayisi", "desc");
+                        DataListYorumSayisi.DataBind();
 
-                    DataListDusukPuan.DataSource = DBop.getFirstLast5Books("Tbl_Kitaplar.KitapOrtalamaPuani", "asc");
-                    DataListDusukPuan.DataBind();
+                        DataListDusukPuan.DataSource = DBop.getFirstLast5Books("Tbl_Kitaplar.KitapOrtalamaPuani", "asc");
+                        DataListDusukPuan.DataBind();
 
-                    DataListilkEklenen.DataSource = DBop.getFirstLast5Books("Tbl_Kitaplar.Kitapid", "asc");
-                    DataListilkEklenen.DataBind();
+                        DataListilkEklenen.DataSource = DBop.getFirstLast5Books("Tbl_Kitaplar.Kitapid", "asc");
+                        DataListilkEklenen.DataBind();
+                    }
+                    catch { }
                 }
-                catch { }
             }
         }
 
